@@ -1,0 +1,56 @@
+.closet-page {
+  padding:40px;
+}
+
+
+.closet-page h1 {
+  font-family:Georgia, serif;
+  font-size:3rem;
+}
+
+
+.closet-page button {
+  margin:30px 0;
+}
+
+
+.clothing-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+
+.clothing-card {
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  text-align:left;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.clothing-card h2 {
+  font-family:Georgia, serif;
+  margin:15px 0;
+}
+
+.clothing-card p {
+  color:#777;
+  margin:8px 0;
+}
+
+
+.image {
+  height:200px;
+  background:#f5efe7;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:5rem;
+  border-radius:15px;
+}
+
+
+.clothing-card p {
+  color:#777;
+}
